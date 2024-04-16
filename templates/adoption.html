@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mise en Adoption</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!--barre de navigation-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                
+                <a href="index.html" class = "navbar_item" id="adoption_logo"><b>SA</b>Sauvetage Animal</a>
+                <div class="navbar_right">
+                    <a href="#search" class="navbar_item">Rechercher</a>
+                </div>
+                
+            </div>
+        </nav>
+        
+    <!-- Mise en adoption section -->
+    <div class="mise_adoption_top_middle"></div><h2 class="mise_adoption_top_middle">Mise en Adoption</h2></div>
+    
+    <div class="form__container"> 
+        <form action="submit_form.py" method="post">
+            <label for="nom_animal">Nom de l'animal:</label><br>
+            <input type="text" id="nom_animal" name="nom_animal" placeholder="Nom" ><br>
+            <span id="erreur-nom" class="erreur"></span>
+
+            <label for="animal_age">Âge de l'animal:</label><br>
+            <input type="text" id="animal_age" name="animal_age"placeholder="âge" ><br>
+            <span id="erreur-age" class="erreur"></span>
+            
+            <label for="espece">Espèce:</label><br>
+            <input type="text" id="espece" name="espece"placeholder="Espèce" ><br>
+            <span id="erreur-espece" class="erreur"></span>
+
+            <label for="race">Race:</label><br>
+            <input type="text" id="race" name="race"placeholder="Race" ><br>
+            <span id="erreur-race" class="erreur"></span>
+
+            <label for="email">Adresse courriel:</label><br>
+            <input type="text" id="email" name="email" placeholder="addresse courriel" ><br>
+            <span id="erreur-email" class="erreur"></span>
+        
+            <label for="addresse">Addresse:</label><br>
+            <input type="text" id="addresse" name="addresse"placeholder="N°civique" ><br>
+            <span id="erreur-adresse" class="erreur"></span>
+
+            <input type="text" id="ville" name="ville"placeholder="Ville" ><br>
+            <span id="erreur-ville" class="erreur"></span>
+
+            <input type="text" id="code_postal" name="code_postal"placeholder="Code Postal" ><br>
+            <span id="erreur-code_postal" class="erreur"></span>
+
+            <label for="description">Description:</label><br>
+            <input type="text" id="description" name="description"placeholder="Description">
+            <span id="erreur-description" class="erreur"></span>
+
+            <input type="submit" id='soumettre'value="Soumettre">
+  
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

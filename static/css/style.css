@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+  }
+  .navbar{
+    height: 80px;
+    background-color: #333;
+  }
+
+  .navbar__container {
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2rem 1rem;
+  }
+  #adoption_logo {
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+  }
+  .navbar_item{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+
+  .animal_accueil{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin: 0 20px;
+  }
+  h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Lexend';
+    font-size: 4rem;
+  }
+  main_container{
+    display: flex;
+  }
+  img{
+    max-width: 100%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .moteur_rechercher_container{
+    margin:0 auto;
+    padding:10px 30px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  h2{
+    font-size: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 20px;
+    padding-bottom: 1rem;
+   
+  }
+
+  .search{
+    width:max-content;
+    display:flex;
+    align-items: center;
+    padding: 14px;
+    border-radius:28px;
+    background-color:#f6f6f6;
+    width:600px;
+  }
+  .valeur_recherche{
+    font-size :16px;
+    font-family:'Lexend',sans-serif;
+    color:#333333;
+    margin-left:14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex:1;
+
+  }
+  .animaux_en_adoption{
+    background-color: #f6f6f6;
+    height: 480px;
+  }
+form {
+
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column; 
+    max-width: 100%;
+    max-height: 100%; 
+    background-color: #fff;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%; 
+    margin: auto; 
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 1.3rem;
+    margin: 10px;
+    text-align: center;   
+}
+
+input {
+    margin: 10px 10px;
+    padding: 14px ;
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    background: transparent;
+    flex: 1;
+    box-sizing: border-box; 
+}
+
+.mise_adoption_top_middle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 2rem; 
+    text-align: center; 
+    margin-bottom: 20px;
+
+
+   
+
+}
+
+#soumettre {
+    background: #80bbd3;
+    width: max-content;
+    padding: 20px;
+    margin-top: 1rem;
+    border-radius: 28px;
+    cursor: pointer; 
+}
+
+.erreur{
+    color:red;
+    display:block;
+    font-style: italic;
+    padding: 5px;
+}
